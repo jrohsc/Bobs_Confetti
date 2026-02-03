@@ -1,0 +1,18 @@
+{
+  "experiments": {
+    "random_lyrics": {
+      "num_samples": 6,
+      "avg_melody": 10.0,
+      "avg_rhythm": 18.833333333333332,
+      "avg_harmony": 11.666666666666666,
+      "avg_overall": 13.5
+    },
+    "semantic_paraphrase": {
+      "num_samples": 8,
+      "avg_melody": 60.0,
+      "avg_rhythm": 12.75,
+      "avg_harmony": 58.5,
+      "avg_overall": 43.75
+    }
+  }
+}

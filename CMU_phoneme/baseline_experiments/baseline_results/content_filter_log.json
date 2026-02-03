@@ -1,0 +1,62 @@
+[
+  {
+    "timestamp": "2026-02-03T12:28:44.757136",
+    "experiment_type": "avt_baseline",
+    "song_name": "lose_yourself",
+    "lyrics_type": "original",
+    "lyrics_preview": "His palms are sweaty, knees weak, arms are heavy\nThere\u2019s vomit on his sweater already, mom\u2019s spaghetti\nHe\u2019s nervous, but on the surface he looks calm and ready\nTo drop bombs, but he keeps on forgettin...",
+    "lyrics_length": 814,
+    "filter_status": "error",
+    "error_message": "Server error: 500",
+    "raw_response": "{\"error\":\"TimeoutError: Timeout 30000ms exceeded.\\nCall log:\\n\\u001b[2m  - waiting for locator('.custom-textarea')\\u001b[22m\\n\"}",
+    "api_response": null
+  },
+  {
+    "timestamp": "2026-02-03T12:29:26.286836",
+    "experiment_type": "avt_baseline",
+    "song_name": "dna",
+    "lyrics_type": "original",
+    "lyrics_preview": "I got, I got, I got, I got\nLoyalty, got royalty inside my DNA\nQuarter piece, got war, and peace inside my DNA\nI got power, poison, pain, and joy inside my DNA\nI got hustle, though, ambition flow insid...",
+    "lyrics_length": 712,
+    "filter_status": "error",
+    "error_message": "Server error: 500",
+    "raw_response": "{\"error\":\"TimeoutError: Timeout 30000ms exceeded.\\nCall log:\\n\\u001b[2m  - waiting for locator('.custom-textarea')\\u001b[22m\\n\"}",
+    "api_response": null
+  },
+  {
+    "timestamp": "2026-02-03T12:30:07.847998",
+    "experiment_type": "avt_baseline",
+    "song_name": "humble",
+    "lyrics_type": "original",
+    "lyrics_preview": "Nobody pray for me\nIt been that day for me\nWay (yeah, yeah)\nAy, I remember syrup sandwiches and crime allowances\nFinesse on 'em with some counterfeits, but now I'm countin' this\nParmesan where my acco...",
+    "lyrics_length": 2809,
+    "filter_status": "error",
+    "error_message": "Server error: 500",
+    "raw_response": "{\"error\":\"TimeoutError: Timeout 30000ms exceeded.\\nCall log:\\n\\u001b[2m  - waiting for locator('.custom-textarea')\\u001b[22m\\n\"}",
+    "api_response": null
+  },
+  {
+    "timestamp": "2026-02-03T12:30:47.659337",
+    "experiment_type": "avt_baseline",
+    "song_name": "espresso",
+    "lyrics_type": "original",
+    "lyrics_preview": "Now he's thinkin' 'bout me every night, oh\nIs it that sweet? I guess so\nSay you can't sleep, baby, I know\nThat's that me espresso\nMove it up, down, left, right, oh\nSwitch it up like Nintendo\nSay you c...",
+    "lyrics_length": 1101,
+    "filter_status": "error",
+    "error_message": "Server error: 500",
+    "raw_response": "{\"error\":\"Error: Target page, context or browser has been closed\\nCall log:\\n\\u001b[2m  - waiting for locator('.custom-textarea')\\u001b[22m\\n\"}",
+    "api_response": null
+  },
+  {
+    "timestamp": "2026-02-03T12:31:16.188327",
+    "experiment_type": "avt_baseline",
+    "song_name": "let_it_be",
+    "lyrics_type": "original",
+    "lyrics_preview": "When I find myself in times of trouble, \nMother Mary comes to me\nSpeaking words of wisdom, let it be\nAnd in my hour of darkness \nshe is standing right in front of me\nSpeaking words of wisdom, let it b...",
+    "lyrics_length": 564,
+    "filter_status": "error",
+    "error_message": "Server error: 500",
+    "raw_response": "{\"error\":\"Error: Target page, context or browser has been closed\\nCall log:\\n\\u001b[2m  - waiting for locator('.custom-textarea')\\u001b[22m\\n\"}",
+    "api_response": null
+  }
+]

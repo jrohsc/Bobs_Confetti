@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-02-03T12:31:21.196011",
+  "total_attempts": 5,
+  "by_status": {
+    "error": 5
+  },
+  "by_lyrics_type": {
+    "original": {
+      "passed": 0,
+      "blocked": 0,
+      "error": 5
+    }
+  },
+  "by_experiment": {
+    "avt_baseline": {
+      "passed": 0,
+      "blocked": 0,
+      "error": 5
+    }
+  },
+  "blocked_details": []
+}

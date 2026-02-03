@@ -1,0 +1,82 @@
+{
+  "lose_yourself": {
+    "config": {
+      "name": "Lose Yourself",
+      "artist": "Eminem",
+      "genre": "Rap",
+      "style": "intense rap, motivational, rhythmic flow"
+    },
+    "original_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/lose_yourself_orig.txt",
+    "paraphrase_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/semantic_paraphrases/lose_yourself_paraphrase.txt",
+    "metrics": {
+      "word_overlap": 0.1414141414141414,
+      "unique_word_ratio": 0.8541666666666666,
+      "length_difference": 0.0012285012285012285,
+      "phonetic_distance_estimate": 0.8563762626262625
+    }
+  },
+  "dna": {
+    "config": {
+      "name": "DNA",
+      "artist": "Kendrick Lamar",
+      "genre": "Rap",
+      "style": "rap, gangsta, trap, aggressive, rhythmic"
+    },
+    "original_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/dna_orig.txt",
+    "paraphrase_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/semantic_paraphrases/dna_paraphrase.txt",
+    "metrics": {
+      "word_overlap": 0.1791044776119403,
+      "unique_word_ratio": 0.8421052631578947,
+      "length_difference": 0.26685393258426965,
+      "phonetic_distance_estimate": 0.8315003927729772
+    }
+  },
+  "humble": {
+    "config": {
+      "name": "HUMBLE",
+      "artist": "Kendrick Lamar",
+      "genre": "Rap",
+      "style": "trap gangsta, bold, sparse, direct"
+    },
+    "original_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/humble_orig.txt",
+    "paraphrase_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/semantic_paraphrases/humble_paraphrase.txt",
+    "metrics": {
+      "word_overlap": 0.07281553398058252,
+      "unique_word_ratio": 0.7169811320754716,
+      "length_difference": 0.8059807760768957,
+      "phonetic_distance_estimate": 0.8220827990474446
+    }
+  },
+  "espresso": {
+    "config": {
+      "name": "Espresso",
+      "artist": "Sabrina Carpenter",
+      "genre": "Pop",
+      "style": "pop, upbeat, catchy, female vocal"
+    },
+    "original_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/espresso_orig.txt",
+    "paraphrase_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/semantic_paraphrases/espresso_paraphrase.txt",
+    "metrics": {
+      "word_overlap": 0.08737864077669903,
+      "unique_word_ratio": 0.8656716417910447,
+      "length_difference": 0.5122615803814714,
+      "phonetic_distance_estimate": 0.8891465005071728
+    }
+  },
+  "let_it_be": {
+    "config": {
+      "name": "Let It Be",
+      "artist": "The Beatles",
+      "genre": "Pop",
+      "style": "rock ballad, piano, inspirational, male vocal"
+    },
+    "original_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/let_it_be_orig.txt",
+    "paraphrase_path": "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/semantic_paraphrases/let_it_be_paraphrase.txt",
+    "metrics": {
+      "word_overlap": 0.1568627450980392,
+      "unique_word_ratio": 0.7037037037037037,
+      "length_difference": 0.4450354609929078,
+      "phonetic_distance_estimate": 0.7734204793028323
+    }
+  }
+}

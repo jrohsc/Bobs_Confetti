@@ -1,0 +1,49 @@
+{
+  "description": "Semantic paraphrases preserve meaning but break phonetic structure",
+  "expected_audiojudge": {
+    "melody": "0.30-0.50 (different tune)",
+    "rhythm": "0.30-0.50 (different rhythm)",
+    "harmony": "0.30-0.50 (different harmony)"
+  },
+  "comparison_with_apt": {
+    "apt_melody": "0.85-0.95 (same tune due to phonetic similarity)",
+    "paraphrase_melody": "0.30-0.50 (different tune despite same meaning)"
+  },
+  "metrics": [
+    {
+      "song": "lose_yourself",
+      "word_overlap": 0.1414141414141414,
+      "unique_word_ratio": 0.8541666666666666,
+      "length_difference": 0.0012285012285012285,
+      "phonetic_distance_estimate": 0.8563762626262625
+    },
+    {
+      "song": "dna",
+      "word_overlap": 0.1791044776119403,
+      "unique_word_ratio": 0.8421052631578947,
+      "length_difference": 0.26685393258426965,
+      "phonetic_distance_estimate": 0.8315003927729772
+    },
+    {
+      "song": "humble",
+      "word_overlap": 0.07281553398058252,
+      "unique_word_ratio": 0.7169811320754716,
+      "length_difference": 0.8059807760768957,
+      "phonetic_distance_estimate": 0.8220827990474446
+    },
+    {
+      "song": "espresso",
+      "word_overlap": 0.08737864077669903,
+      "unique_word_ratio": 0.8656716417910447,
+      "length_difference": 0.5122615803814714,
+      "phonetic_distance_estimate": 0.8891465005071728
+    },
+    {
+      "song": "let_it_be",
+      "word_overlap": 0.1568627450980392,
+      "unique_word_ratio": 0.7037037037037037,
+      "length_difference": 0.4450354609929078,
+      "phonetic_distance_estimate": 0.7734204793028323
+    }
+  ]
+}

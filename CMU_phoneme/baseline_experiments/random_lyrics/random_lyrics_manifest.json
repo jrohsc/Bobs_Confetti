@@ -1,0 +1,72 @@
+{
+  "lose_yourself": {
+    "config": {
+      "name": "Lose Yourself",
+      "artist": "Eminem",
+      "genre": "Rap",
+      "style": "intense rap, motivational, rhythmic flow",
+      "title_template": "Random Baseline {variant} (Lose Yourself Control)"
+    },
+    "variants": [
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/lose_yourself_random_v1.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/lose_yourself_random_v2.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/lose_yourself_random_v3.txt"
+    ]
+  },
+  "dna": {
+    "config": {
+      "name": "DNA",
+      "artist": "Kendrick Lamar",
+      "genre": "Rap",
+      "style": "rap, gangsta, trap, aggressive, rhythmic",
+      "title_template": "Random Baseline {variant} (DNA Control)"
+    },
+    "variants": [
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/dna_random_v1.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/dna_random_v2.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/dna_random_v3.txt"
+    ]
+  },
+  "humble": {
+    "config": {
+      "name": "HUMBLE",
+      "artist": "Kendrick Lamar",
+      "genre": "Rap",
+      "style": "trap gangsta, bold, sparse, direct",
+      "title_template": "Random Baseline {variant} (HUMBLE Control)"
+    },
+    "variants": [
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/humble_random_v1.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/humble_random_v2.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/humble_random_v3.txt"
+    ]
+  },
+  "espresso": {
+    "config": {
+      "name": "Espresso",
+      "artist": "Sabrina Carpenter",
+      "genre": "Pop",
+      "style": "pop, upbeat, catchy, female vocal",
+      "title_template": "Random Baseline {variant} (Espresso Control)"
+    },
+    "variants": [
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/espresso_random_v1.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/espresso_random_v2.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/espresso_random_v3.txt"
+    ]
+  },
+  "let_it_be": {
+    "config": {
+      "name": "Let It Be",
+      "artist": "The Beatles",
+      "genre": "Pop",
+      "style": "rock ballad, piano, inspirational, male vocal",
+      "title_template": "Random Baseline {variant} (Let It Be Control)"
+    },
+    "variants": [
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/let_it_be_random_v1.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/let_it_be_random_v2.txt",
+      "/Users/jroh/Documents/GitHub/Bobs_Confetti/CMU_phoneme/baseline_experiments/random_lyrics/let_it_be_random_v3.txt"
+    ]
+  }
+}
