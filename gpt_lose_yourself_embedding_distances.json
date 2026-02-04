@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-26T15:46:37.846331",
+    "file1": "/Users/jroh/Desktop/Bobs_confetti/gpt_embedding/lose_yourself_orig.npy",
+    "file2": "/Users/jroh/Desktop/Bobs_confetti/gpt_embedding/lose_yourself_phoneme.npy",
+    "original_embedding1_shape": [
+      3072
+    ],
+    "original_embedding2_shape": [
+      3072
+    ],
+    "final_embedding1_shape": [
+      3072
+    ],
+    "final_embedding2_shape": [
+      3072
+    ],
+    "shape_mismatch": false,
+    "pooling_method": "none"
+  },
+  "distance_metrics": {
+    "cosine_similarity": 0.7461899680434936,
+    "cosine_distance": 0.2538100319565064,
+    "euclidean_distance": 0.7124745985005342,
+    "manhattan_distance": 30.70776314384034,
+    "dot_product": 0.7461899527490965
+  },
+  "interpretation": {
+    "similarity_level": "Moderately similar embeddings (cosine similarity > 0.7)",
+    "cosine_similarity_threshold": {
+      "very_similar": false,
+      "moderately_similar": true,
+      "somewhat_similar": false,
+      "quite_different": false
+    }
+  }
+}

@@ -2,6 +2,7 @@
 
 # Environment and secrets
 .env
+env
 env/
 venv/
 .venv/
@@ -28,7 +29,8 @@ wheels/
 .installed.cfg
 *.egg
 
-# Jupyter Notebook
+# Jupyter Notebook (may contain API keys in output)
+*.ipynb
 .ipynb_checkpoints/
 
 # IDE
@@ -55,13 +57,33 @@ logs/
 .eval_cache/
 *.cache
 
-# Large files (consider using Git LFS for audio files)
-# Uncomment if you want to exclude audio files
-# *.mp3
-# *.wav
-# *.pt  # PyTorch models
+# Large files - Audio (copyrighted content)
+*.mp3
+*.wav
+audio/
+AudioJudge/audio_mp3/
+AudioJudge/audio_wav/
+AudioJudge/generated/
+AudioJudge/orig/
+CMU_phoneme/baseline_experiments/random_generation/
+CMU_phoneme/baseline_experiments/semantic_paraphrases_generated/
+CMU_phoneme/generated_songs/
+
+# Large files - Embeddings (regenerable)
+*.npy
+*.pt
+gpt_embedding/
+yue_embedding/
+
+# Paper drafts
+*.pdf
+
+# Generated figures (regenerable)
+AudioJudge/heatmap_figures/
+AudioJudge/heatmap_figures_v2/
+AudioJudge/heatmap_figures_final/
 
 # Test outputs
 test_output/
 tmp/
-.env
+tools/

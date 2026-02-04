@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-26T17:22:18.659795",
+    "file1": "/Users/jroh/Desktop/Bobs_confetti/yue_embedding/APT_orig_embeddings.pt",
+    "file2": "/Users/jroh/Desktop/Bobs_confetti/yue_embedding/APT_phoneme_embeddings.pt",
+    "original_embedding1_shape": [
+      1,
+      622,
+      4096
+    ],
+    "original_embedding2_shape": [
+      1,
+      1112,
+      4096
+    ],
+    "final_embedding1_shape": [
+      4096
+    ],
+    "final_embedding2_shape": [
+      4096
+    ],
+    "shape_mismatch": true,
+    "pooling_method": "mean_pooling"
+  },
+  "distance_metrics": {
+    "cosine_similarity": 0.5131915807723999,
+    "cosine_distance": 0.4868084192276001,
+    "euclidean_distance": 0.60630863904953,
+    "manhattan_distance": 31.03045082092285,
+    "dot_product": 0.17855453491210938
+  },
+  "interpretation": {
+    "similarity_level": "Somewhat similar embeddings (cosine similarity > 0.5)",
+    "cosine_similarity_threshold": {
+      "very_similar": false,
+      "moderately_similar": false,
+      "somewhat_similar": true,
+      "quite_different": false
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-26T17:22:23.923269",
+    "file1": "/Users/jroh/Desktop/Bobs_confetti/gpt_embedding/DNA_orig.npy",
+    "file2": "/Users/jroh/Desktop/Bobs_confetti/gpt_embedding/DNA_phoneme.npy",
+    "original_embedding1_shape": [
+      3072
+    ],
+    "original_embedding2_shape": [
+      3072
+    ],
+    "final_embedding1_shape": [
+      3072
+    ],
+    "final_embedding2_shape": [
+      3072
+    ],
+    "shape_mismatch": false,
+    "pooling_method": "none"
+  },
+  "distance_metrics": {
+    "cosine_similarity": 0.7247776520838471,
+    "cosine_distance": 0.27522234791615285,
+    "euclidean_distance": 0.741919610952928,
+    "manhattan_distance": 32.12019451309965,
+    "dot_product": 0.7247776695753803
+  },
+  "interpretation": {
+    "similarity_level": "Moderately similar embeddings (cosine similarity > 0.7)",
+    "cosine_similarity_threshold": {
+      "very_similar": false,
+      "moderately_similar": true,
+      "somewhat_similar": false,
+      "quite_different": false
+    }
+  }
+}

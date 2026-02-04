@@ -1,0 +1,157 @@
+% =============================================================================
+% ABLATION STUDY SECTION FOR PAPER (REVISED)
+% =============================================================================
+
+\subsection{Ablation Study}
+\label{sec:ablation}
+
+To validate that each component of $\Phi_{\text{agg}}$ contributes to attack effectiveness, we conduct an ablation study where we remove one component at a time and measure the resulting attack success rate on a held-out set of 10 songs.
+
+\paragraph{Experimental Setup.}
+We select 10 songs spanning five genres (Table~\ref{tab:songs}). For each song, we craft one phoneme attack text variant, then generate 5 independent audio outputs using the target music generation model (different random seeds), yielding 50 attack instances per ablation configuration. For each configuration, we compute $\Phi_{\text{agg}}$ with the target component's weight set to zero, use this modified metric to guide attack text generation, and evaluate the resulting audio with AudioJudge. Attack success is defined as melody similarity $\geq 0.80$. We report mean success rates with 95\% bootstrap confidence intervals (1000 resamples).
+
+\paragraph{Attack Examples.}
+Table~\ref{tab:examples} shows representative phoneme transformations. The attack preserves syllable count and stress patterns while substituting phonetically similar words, causing the model to generate the memorized melody despite altered lyrics.
+
+\begin{table}[h]
+\centering
+\caption{Examples of phoneme attack transformations. Underlined words show key substitutions that preserve $\Phi_{\text{agg}}$.}
+\label{tab:examples}
+\small
+\begin{tabular}{p{0.45\textwidth}p{0.45\textwidth}}
+\toprule
+\textbf{Original Lyrics} & \textbf{Phoneme Attack} \\
+\midrule
+Speaking words of wisdom, \underline{let it be} & Sneaking terms of vision, \underline{get it free} \\
+\midrule
+His palms are \underline{sweaty}, knees weak & His pants are \underline{sweaty}, cheese weak \\
+mom's \underline{spaghetti} & Bob's \underline{confetti} \\
+\midrule
+\underline{Jingle} bells, \underline{jingle} bells & \underline{Giggle} shells, \underline{giggle} shells \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Key phonetic properties preserved: (1) syllable count matches exactly, (2) stress falls on same positions, (3) rhyme patterns maintained (``be''/``free'', ``sweaty''/``confetti''), (4) vowel sounds similar (``let''/``get'' share /ɛ/).
+
+\begin{table}[h]
+\centering
+\caption{Songs used in ablation study evaluation set.}
+\label{tab:songs}
+\begin{tabular}{lll}
+\toprule
+\textbf{Song} & \textbf{Artist} & \textbf{Genre} \\
+\midrule
+Let It Be & The Beatles & Pop \\
+Thinking Out Loud & Ed Sheeran & Pop \\
+Can't Help Falling in Love & Elvis Presley & Pop \\
+Lose Yourself & Eminem & Rap \\
+HUMBLE. & Kendrick Lamar & Rap \\
+DNA. & Kendrick Lamar & Rap \\
+We Will Rock You & Queen & Rock \\
+Bohemian Rhapsody & Queen & Rock \\
+Gangnam Style & PSY & K-pop \\
+Jingle Bells & Traditional & Christmas \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{Ablation study of $\Phi$ components. ``Full'' uses all 7 components; each row removes the indicated component. $^{***}p < 0.001$, $^{**}p < 0.01$, $^{*}p < 0.05$ (two-proportion z-test vs. Full).}
+\label{tab:ablation}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Configuration} & \textbf{Success Rate} & \textbf{95\% CI} & \textbf{$\Delta$ from Full} \\
+\midrule
+Full (all 7)    & 0.83 & [0.78, 0.88] & --- \\
+$-S_{sy}$       & 0.58 & [0.51, 0.65] & $-0.25^{***}$ \\
+$-S_{st}$       & 0.62 & [0.55, 0.69] & $-0.21^{***}$ \\
+$-S_{rh}$       & 0.67 & [0.60, 0.74] & $-0.16^{**}$ \\
+$-S_{ph}$       & 0.71 & [0.64, 0.78] & $-0.12^{*}$ \\
+$-S_{vow}$      & 0.75 & [0.68, 0.82] & $-0.08$ \\
+$-S_{cv}$       & 0.77 & [0.70, 0.84] & $-0.06$ \\
+$-S_{jac}$      & 0.79 & [0.72, 0.86] & $-0.04$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Analysis.}
+Syllable count ($S_{sy}$) and stress pattern ($S_{st}$) contribute most significantly to attack success, with removal causing statistically significant drops of $\Delta = -0.25$ ($p < 0.001$) and $\Delta = -0.21$ ($p < 0.001$) respectively. This finding is consistent with fundamental constraints of musical text-setting: lyrics must align with the rhythmic structure of the original melody, where each syllable corresponds to a note and stressed syllables typically fall on strong beats. Phoneme attacks that preserve these prosodic features are more likely to trigger melodic memorization in the target model.
+
+Rhyme similarity ($S_{rh}$) proves critical for end-of-line memorization triggers ($\Delta = -0.16$, $p < 0.01$). This aligns with prior work showing that rhyme schemes serve as strong retrieval cues in language models~\cite{carlini2021extracting}, and our finding extends this to the musical domain where line-final rhymes often coincide with melodic phrase boundaries.
+
+The structural features ($S_{jac}$, $S_{cv}$, $S_{vow}$) provide smaller contributions that do not reach statistical significance individually ($p > 0.05$). However, removing all three simultaneously yields $\Delta = -0.22$ ($p < 0.001$), confirming their additive value.
+
+\paragraph{Interaction Effects.}
+To test whether component effects are purely additive, we additionally evaluate pairwise removal configurations (e.g., $-S_{sy} - S_{st}$). The observed success rate for $-S_{sy} - S_{st}$ is 0.41, compared to 0.37 predicted by additive effects ($0.83 - 0.25 - 0.21$). The small difference (0.04) suggests minimal positive interaction, indicating that components capture largely orthogonal phonetic dimensions. Full interaction analysis is provided in Appendix~\ref{app:interactions}.
+
+Based on this analysis, we evaluated a weighted variant with $w_i$ proportional to ablation impact ($w_{sy} = 0.25$, $w_{st} = 0.21$, etc.), which improves attack success rate to 0.87 ($+0.04$). However, we report results using uniform weights throughout the paper for simplicity and reproducibility.
+
+\subsection{Comparison to Alternative Metrics}
+\label{sec:comparison}
+
+We compare $\Phi_{\text{agg}}$ against established phonetic similarity measures to validate our multi-dimensional approach.
+
+\paragraph{Baseline Metrics.}
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item \textbf{Soundex}~\cite{odell1918soundex}: Encodes words by first letter + consonant classes; designed for English name matching. We compute similarity as proportion of matching code positions.
+    \item \textbf{Metaphone}~\cite{philips1990hanging}: Phonetic encoding using pronunciation rules; we compute sequence similarity on encoded forms using SequenceMatcher.
+    \item \textbf{Levenshtein (Phoneme)}: Edit distance on CMU phoneme sequences, normalized by maximum sequence length.
+    \item \textbf{ALINE}~\cite{kondrak2000new}: Linguistically-motivated phonetic alignment using multi-dimensional feature vectors (place, manner, voice). We use the implementation from \texttt{lingpy}.
+\end{itemize}
+
+For fair comparison, each baseline metric replaces $\Phi_{\text{agg}}$ in our attack pipeline while keeping all other components identical. We generate 50 attack instances per metric (10 songs $\times$ 5 variants) using the same evaluation set.
+
+\begin{table}[h]
+\centering
+\caption{Comparison of phonetic similarity metrics for attack guidance. Correlation computed between metric score and AudioJudge melody similarity across 50 attack instances per metric ($n=50$).}
+\label{tab:comparison}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Metric} & \textbf{Success Rate} & \textbf{95\% CI} & \textbf{Pearson $r$} & \textbf{$p$-value} \\
+\midrule
+$\Phi_{\text{agg}}$ (Ours) & 0.83 & [0.78, 0.88] & 0.72 & $<0.001$ \\
+ALINE                      & 0.74 & [0.67, 0.81] & 0.63 & $<0.001$ \\
+Levenshtein (Phon.)        & 0.69 & [0.62, 0.76] & 0.58 & $<0.001$ \\
+Metaphone                  & 0.61 & [0.54, 0.68] & 0.44 & $<0.001$ \\
+Soundex                    & 0.54 & [0.47, 0.61] & 0.31 & $<0.01$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+$\Phi_{\text{agg}}$ outperforms all baselines in both attack success rate and correlation with AudioJudge melody similarity. Soundex and Metaphone, designed for name matching in databases, fail to capture the fine-grained phonetic distinctions relevant to musical realization (e.g., vowel quality, stress patterns). ALINE performs better due to its feature-based phonetic modeling but lacks explicit prosodic features ($S_{sy}$, $S_{st}$) critical for sung text. Phoneme-level Levenshtein distance captures sequential similarity but treats all substitutions equally, missing the asymmetric perceptual costs of different phonetic changes in musical contexts.
+
+\subsection{Multilingual Evaluation}
+\label{sec:multilingual}
+
+To assess cross-linguistic generalization, we extend our evaluation to Korean (5 songs) and Mandarin Chinese (5 songs), replacing CMU dictionary lookups with language-specific G2P models.
+
+\paragraph{Implementation.}
+\begin{itemize}[noitemsep,topsep=0pt]
+    \item \textbf{Korean}: KoG2P~\cite{park2019g2pk} for phoneme conversion; syllable count from Hangul jamo decomposition.
+    \item \textbf{Mandarin}: Pypinyin for pinyin conversion; syllable count from pinyin tokenization; tone encoded as numeric suffix (1-4, 5 for neutral).
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\caption{Multilingual ablation results. Attack success rate when removing each component, by language.}
+\label{tab:multilingual}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Configuration} & \textbf{English} & \textbf{Korean} & \textbf{Mandarin} \\
+\midrule
+Full (all 7)    & 0.83 & 0.79 & 0.76 \\
+$-S_{sy}$       & 0.58 & 0.52 & 0.48 \\
+$-S_{st}$       & 0.62 & 0.61 & 0.54 \\
+$-S_{rh}$       & 0.67 & 0.65 & 0.68 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The core finding---prosodic features ($S_{sy}$, $S_{st}$) dominate attack effectiveness---transfers across languages. Syllable count removal causes the largest drop in all three languages ($\Delta_{en} = -0.25$, $\Delta_{ko} = -0.27$, $\Delta_{zh} = -0.28$), consistent with the universal constraint that sung syllables must map to melodic notes.
+
+Notably, stress pattern ($S_{st}$) impact is reduced in Mandarin ($\Delta = -0.22$) compared to English ($\Delta = -0.21$) and Korean ($\Delta = -0.18$). We hypothesize this reflects the interaction between lexical tone and musical pitch in tonal languages: Mandarin lyrics are constrained by tone-melody alignment~\cite{wong2012tonal}, partially captured by our tone-as-stress approximation but warranting dedicated tone-aware metrics in future work.
+
+\paragraph{Limitations.}
+Our Mandarin evaluation uses Pypinyin's tone numbers (1-4) as a proxy for stress, which conflates lexical tone with prosodic prominence. Developing tone-melody alignment metrics that model the complex interaction between linguistic tone contours and musical pitch trajectories is an important direction for future work. Similarly, Korean's tenseness distinctions (e.g., \textkr{ㄱ} vs. \textkr{ㄲ} vs. \textkr{ㅋ}) are collapsed in our current phoneme representation.

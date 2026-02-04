@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-26T17:22:30.804338",
+    "file1": "/Users/jroh/Desktop/Bobs_confetti/yue_embedding/DNA_orig_embeddings.pt",
+    "file2": "/Users/jroh/Desktop/Bobs_confetti/yue_embedding/DNA_phoneme_embeddings.pt",
+    "original_embedding1_shape": [
+      1,
+      228,
+      4096
+    ],
+    "original_embedding2_shape": [
+      1,
+      240,
+      4096
+    ],
+    "final_embedding1_shape": [
+      4096
+    ],
+    "final_embedding2_shape": [
+      4096
+    ],
+    "shape_mismatch": true,
+    "pooling_method": "mean_pooling"
+  },
+  "distance_metrics": {
+    "cosine_similarity": 0.960315465927124,
+    "cosine_distance": 0.03968453407287598,
+    "euclidean_distance": 0.14347964525222778,
+    "manhattan_distance": 7.238486289978027,
+    "dot_product": 0.2463350147008896
+  },
+  "interpretation": {
+    "similarity_level": "Very similar embeddings (cosine similarity > 0.9)",
+    "cosine_similarity_threshold": {
+      "very_similar": true,
+      "moderately_similar": false,
+      "somewhat_similar": false,
+      "quite_different": false
+    }
+  }
+}

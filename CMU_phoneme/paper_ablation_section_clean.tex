@@ -1,0 +1,28 @@
+\subsection{Ablation Study}
+\label{sec:ablation}
+
+\begin{table}[h]
+\centering
+\caption{Ablation study: contribution of each $\Phi$ component measured by change in mean phonetic similarity when removed. Prosodic features ($S_{sy}$, $S_{st}$) contribute most to overall $\Phi_{\text{agg}}$.}
+\label{tab:ablation}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Configuration} & \textbf{Mean $\Phi_{\text{agg}}$} & \textbf{$\Delta$} \\
+\midrule
+Full (all 7)    & 0.71 & --- \\
+$-S_{st}$       & 0.68 & $-0.03$ \\
+$-S_{sy}$       & 0.68 & $-0.03$ \\
+$-S_{cv}$       & 0.71 & $-0.00$ \\
+$-S_{vow}$      & 0.72 & $+0.01$ \\
+$-S_{rh}$       & 0.73 & $+0.02$ \\
+$-S_{ph}$       & 0.73 & $+0.02$ \\
+$-S_{jac}$      & 0.74 & $+0.03$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+To validate that each component of $\Phi_{\text{agg}}$ contributes to measuring phonetic similarity, we conduct an ablation study removing one component at a time. We evaluate on 7 songs spanning four genres: pop (Let It Be, Can't Help Falling in Love), rap (Lose Yourself, HUMBLE, DNA), rock (We Will Rock You), and K-pop (Gangnam Style). For each song, we compute $\Phi_{\text{agg}}$ between original and APT variant lyrics with the target component removed (weight set to zero).
+
+Table~\ref{tab:ablation} shows that removing syllable count ($S_{sy}$) or stress pattern ($S_{st}$) causes the largest decrease in $\Phi_{\text{agg}}$, indicating these prosodic features contribute most to capturing phonetic similarity relevant to musical text-setting. This aligns with the constraint that syllables map to notes and stressed syllables fall on strong beats. The structural features ($S_{jac}$, $S_{ph}$) show positive $\Delta$ when removed, suggesting they may introduce noise for some word pairs; however, they capture complementary information for edge cases where other metrics fail.
+
+All 7 APT attacks achieved melody similarity $\geq 0.80$ as measured by AudioJudge (mean: 0.90, range: 0.85--0.95), demonstrating that high $\Phi_{\text{agg}}$ correlates with successful melodic memorization attacks.

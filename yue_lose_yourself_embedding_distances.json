@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-26T15:46:07.279482",
+    "file1": "/Users/jroh/Desktop/Bobs_confetti/yue_embedding/lose_yourself_orig_embeddings.pt",
+    "file2": "/Users/jroh/Desktop/Bobs_confetti/yue_embedding/lose_yourself_phoneme_embeddings.pt",
+    "original_embedding1_shape": [
+      1,
+      312,
+      4096
+    ],
+    "original_embedding2_shape": [
+      1,
+      296,
+      4096
+    ],
+    "final_embedding1_shape": [
+      4096
+    ],
+    "final_embedding2_shape": [
+      4096
+    ],
+    "shape_mismatch": true,
+    "pooling_method": "mean_pooling"
+  },
+  "distance_metrics": {
+    "cosine_similarity": 0.9761807918548584,
+    "cosine_distance": 0.0238192081451416,
+    "euclidean_distance": 0.10449936985969543,
+    "manhattan_distance": 5.318059921264648,
+    "dot_product": 0.2205199897289276
+  },
+  "interpretation": {
+    "similarity_level": "Very similar embeddings (cosine similarity > 0.9)",
+    "cosine_similarity_threshold": {
+      "very_similar": true,
+      "moderately_similar": false,
+      "somewhat_similar": false,
+      "quite_different": false
+    }
+  }
+}

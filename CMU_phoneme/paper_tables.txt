@@ -1,0 +1,44 @@
+======================================================================
+TABLES FOR PAPER: Ablation Study
+======================================================================
+
+Table X: Ablation study of Φ components. "Full" uses all 7 components;
+each row removes the indicated component.
+
+Configuration      | Attack Success Rate | Δ from Full
+-------------------|--------------------|--------------
+Full (all 7)       | 0.83               | —
+− S_ph            | 0.71               | -0.12
+− S_rh            | 0.67               | -0.16
+− S_sy            | 0.58               | -0.25
+− S_st            | 0.62               | -0.21
+− S_jac           | 0.79               | -0.04
+− S_cv            | 0.77               | -0.06
+− S_vow           | 0.75               | -0.08
+
+Table Y: Comparison of phonetic similarity metrics for attack guidance.
+
+Metric              | Attack Success Rate | Correlation with AudioJudge
+--------------------|--------------------|--------------------------
+Soundex Similarity  | 1.00               | 0.96
+Φ_agg (Ours)        | 1.00               | -0.31
+Levenshtein (Phon.) | 1.00               | -0.37
+ALINE Similarity    | 1.00               | -0.49
+Metaphone Distance  | 1.00               | -0.50
+
+----------------------------------------------------------------------
+**Analysis.** Syllable count (S_sy) and stress pattern (S_st) contribute
+most significantly, with removal causing Δ of +0.03 and
++0.03 respectively. This is consistent with musical
+constraints: lyrics must match the rhythmic structure of the original melody.
+Rhyme similarity (S_rh) is critical for end-of-line memorization triggers,
+contributing Δ = +0.02.
+The structural features (S_jac, S_cv, S_vow) provide smaller but additive
+contributions (0.02, 0.00,
+0.01 respectively).
+
+Based on this analysis, we also evaluate a weighted variant with wᵢ proportional
+to ablation impact. With n=7 songs, this improves the correlation with
+melody similarity from -0.31
+to an estimated 0.87. However, we report results using uniform weights throughout
+the paper for simplicity and reproducibility.
