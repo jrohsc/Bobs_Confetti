@@ -1,0 +1,201 @@
+{
+  "songs": {
+    "cant_help_falling_in_love_with_you": {
+      "results": [
+        {
+          "melody": 90.0,
+          "rhythm": 85.0,
+          "harmony": 90.0,
+          "vocalist": 50.0,
+          "style": 85.0,
+          "file": "Can't Help Falling in Love.mp3"
+        },
+        {
+          "melody": 70.0,
+          "rhythm": 75.0,
+          "harmony": 80.0,
+          "vocalist": 50.0,
+          "style": 65.0,
+          "file": "can't_help_falling_in_love_with_you (1).mp3"
+        },
+        {
+          "melody": 90.0,
+          "rhythm": 95.0,
+          "harmony": 90.0,
+          "vocalist": 60.0,
+          "style": 90.0,
+          "file": "can't_help_falling_in_love_with_you (2).mp3"
+        },
+        {
+          "melody": 90.0,
+          "rhythm": 85.0,
+          "harmony": 92.0,
+          "vocalist": 65.0,
+          "style": 88.0,
+          "file": "can't_help_falling_in_love_with_you.mp3"
+        },
+        {
+          "melody": 90.0,
+          "rhythm": 85.0,
+          "harmony": 95.0,
+          "vocalist": 70.0,
+          "style": 92.0,
+          "file": "can't_help_falling_in_love_with_you (3).mp3"
+        }
+      ],
+      "statistics": {
+        "melody": {
+          "mean": 86.0,
+          "std": 8.94427190999916,
+          "n": 5
+        },
+        "rhythm": {
+          "mean": 85.0,
+          "std": 7.0710678118654755,
+          "n": 5
+        },
+        "harmony": {
+          "mean": 89.4,
+          "std": 5.639148871948674,
+          "n": 5
+        },
+        "vocalist": {
+          "mean": 59.0,
+          "std": 8.94427190999916,
+          "n": 5
+        },
+        "style": {
+          "mean": 84.0,
+          "std": 10.931605554537724,
+          "n": 5
+        }
+      }
+    },
+    "Espresso": {
+      "results": [
+        {
+          "melody": 40.0,
+          "rhythm": 55.0,
+          "harmony": 45.0,
+          "vocalist": 30.0,
+          "style": 50.0,
+          "file": "espresso (3).mp3"
+        },
+        {
+          "melody": 40.0,
+          "rhythm": 30.0,
+          "harmony": 35.0,
+          "vocalist": 25.0,
+          "style": 30.0,
+          "file": "espresso (2).mp3"
+        },
+        {
+          "melody": 40.0,
+          "rhythm": 60.0,
+          "harmony": 55.0,
+          "vocalist": 30.0,
+          "style": 70.0,
+          "file": "espresso_v1.mp3"
+        },
+        {
+          "melody": 50.0,
+          "rhythm": 60.0,
+          "harmony": 45.0,
+          "vocalist": 30.0,
+          "style": 55.0,
+          "file": "espresso_v2.mp3"
+        }
+      ],
+      "statistics": {
+        "melody": {
+          "mean": 42.5,
+          "std": 5.0,
+          "n": 4
+        },
+        "rhythm": {
+          "mean": 51.25,
+          "std": 14.361406616345072,
+          "n": 4
+        },
+        "harmony": {
+          "mean": 45.0,
+          "std": 8.16496580927726,
+          "n": 4
+        },
+        "vocalist": {
+          "mean": 28.75,
+          "std": 2.5,
+          "n": 4
+        },
+        "style": {
+          "mean": 51.25,
+          "std": 16.520189667999176,
+          "n": 4
+        }
+      }
+    },
+    "DOPE": {
+      "results": [
+        {
+          "melody": 75.0,
+          "rhythm": 80.0,
+          "harmony": 85.0,
+          "vocalist": 65.0,
+          "style": 80.0,
+          "file": "DOPE-v4.mp3"
+        },
+        {
+          "melody": 90.0,
+          "rhythm": 92.0,
+          "harmony": 88.0,
+          "vocalist": 85.0,
+          "style": 95.0,
+          "file": "DOPE-generated-1.mp3"
+        },
+        {
+          "melody": 70.0,
+          "rhythm": 85.0,
+          "harmony": 80.0,
+          "vocalist": 65.0,
+          "style": 90.0,
+          "file": "DOPE-v3.mp3"
+        },
+        {
+          "melody": 85.0,
+          "rhythm": 90.0,
+          "harmony": 85.0,
+          "vocalist": 75.0,
+          "style": 88.0,
+          "file": "DOPE-v2.mp3"
+        }
+      ],
+      "statistics": {
+        "melody": {
+          "mean": 80.0,
+          "std": 9.128709291752768,
+          "n": 4
+        },
+        "rhythm": {
+          "mean": 86.75,
+          "std": 5.377421934967226,
+          "n": 4
+        },
+        "harmony": {
+          "mean": 84.5,
+          "std": 3.3166247903554,
+          "n": 4
+        },
+        "vocalist": {
+          "mean": 72.5,
+          "std": 9.574271077563381,
+          "n": 4
+        },
+        "style": {
+          "mean": 88.25,
+          "std": 6.238322424070967,
+          "n": 4
+        }
+      }
+    }
+  }
+}

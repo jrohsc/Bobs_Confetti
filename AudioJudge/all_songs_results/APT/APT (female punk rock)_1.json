@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/APT/original/APT_original.wav",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/APT/generated/APT (female punk rock)_1.mp3",
+  "scores": {
+    "melody": 85.0,
+    "rhythm": 90.0,
+    "harmony": 88.0,
+    "vocalist": 80.0,
+    "style": 92.0
+  }
+}

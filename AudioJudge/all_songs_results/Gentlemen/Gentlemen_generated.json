@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Gentlemen/original/Gentlemen_original.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Gentlemen/generated/Gentlemen_generated.mp3",
+  "scores": {
+    "melody": 90.0,
+    "rhythm": 95.0,
+    "harmony": 92.0,
+    "vocalist": 85.0,
+    "style": 93.0
+  }
+}

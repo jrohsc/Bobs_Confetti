@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Espresso/original/Espresso_original.wav",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Espresso/generated/espresso (2).mp3",
+  "scores": {
+    "melody": 40.0,
+    "rhythm": 30.0,
+    "harmony": 35.0,
+    "vocalist": 25.0,
+    "style": 30.0
+  }
+}

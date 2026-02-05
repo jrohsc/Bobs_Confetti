@@ -1,0 +1,965 @@
+{
+  "all_results": {
+    "Gentlemen": [
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 92.0,
+        "vocalist": 85.0,
+        "style": 93.0,
+        "file": "Gentlemen_generated.mp3"
+      },
+      {
+        "melody": 95.0,
+        "rhythm": 98.0,
+        "harmony": 95.0,
+        "vocalist": 90.0,
+        "style": 97.0,
+        "file": "gentleman_v1.mp3"
+      },
+      {
+        "melody": 95.0,
+        "rhythm": 97.0,
+        "harmony": 95.0,
+        "vocalist": 92.0,
+        "style": 96.0,
+        "file": "gentleman_v2.mp3"
+      }
+    ],
+    "DOPE": [
+      {
+        "melody": 90.0,
+        "rhythm": 92.0,
+        "harmony": 88.0,
+        "vocalist": 85.0,
+        "style": 95.0,
+        "file": "DOPE-generated-1.mp3"
+      }
+    ],
+    "Gangnam Style": [
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 90.0,
+        "vocalist": 75.0,
+        "style": 92.0,
+        "file": "Gangnam_Style_generated.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 93.0,
+        "vocalist": 75.0,
+        "style": 92.0,
+        "file": "gangnam_style_v2.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 93.0,
+        "harmony": 88.0,
+        "vocalist": 75.0,
+        "style": 91.0,
+        "file": "gangnam_style_v1.mp3"
+      }
+    ],
+    "HUMBLE": [
+      {
+        "melody": 85.0,
+        "rhythm": 90.0,
+        "harmony": 88.0,
+        "vocalist": 75.0,
+        "style": 92.0,
+        "file": "HUMBLE_generated_3.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 85.0,
+        "vocalist": 88.0,
+        "style": 92.0,
+        "file": "HUMBLE_generated_2.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 90.0,
+        "vocalist": 85.0,
+        "style": 92.0,
+        "file": "HUMBLE_generated_1.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 85.0,
+        "vocalist": 88.0,
+        "style": 92.0,
+        "file": "HUMBLE_generated_4.mp3"
+      }
+    ],
+    "Mandarin": [
+      {
+        "melody": 30.0,
+        "rhythm": 20.0,
+        "harmony": 25.0,
+        "vocalist": 15.0,
+        "style": 20.0,
+        "file": "\u540e\u6765 (inspiring-female-uplifting-pop-airy-vocal-electronic-bright-vocal).mp3"
+      },
+      {
+        "melody": 40.0,
+        "rhythm": 30.0,
+        "harmony": 35.0,
+        "vocalist": 20.0,
+        "style": 25.0,
+        "file": "\u540e\u6765 (pop-ballad-guitar-nostalgic-female-bittersweet-vocal-reflective).mp3"
+      },
+      {
+        "melody": 30.0,
+        "rhythm": 20.0,
+        "harmony": 25.0,
+        "vocalist": 15.0,
+        "style": 20.0,
+        "file": "\u540e\u6765 (Female-nostalgic-vocal-ballad-with-gentle-piano-and-strings).mp3"
+      },
+      {
+        "melody": 95.0,
+        "rhythm": 90.0,
+        "harmony": 92.0,
+        "vocalist": 75.0,
+        "style": 88.0,
+        "file": "\u5929\u540e (N:A).mp3"
+      },
+      {
+        "melody": 30.0,
+        "rhythm": 20.0,
+        "harmony": 25.0,
+        "vocalist": 15.0,
+        "style": 35.0,
+        "file": "\u540e\u6765 (N:A).mp3"
+      },
+      {
+        "melody": 20.0,
+        "rhythm": 15.0,
+        "harmony": 10.0,
+        "vocalist": 25.0,
+        "style": 20.0,
+        "file": "\u751c\u871c\u871c (Teresa Teng) (N:A).mp3"
+      },
+      {
+        "melody": 30.0,
+        "rhythm": 40.0,
+        "harmony": 25.0,
+        "vocalist": 35.0,
+        "style": 35.0,
+        "file": "\u670b\u53cb (A-heartfelt-Chinese-ballad-celebrating-enduring-friendship-and-the-bonds-that-last-a-lifetime).mp3"
+      },
+      {
+        "melody": 35.0,
+        "rhythm": 30.0,
+        "harmony": 25.0,
+        "vocalist": 20.0,
+        "style": 30.0,
+        "file": "\u670b\u53cb (folk-rock-acoustic-warm-male-resonant-vocal-friendship-anthem).mp3"
+      }
+    ],
+    "Phoneme": [
+      {
+        "melody": 50.0,
+        "rhythm": 60.0,
+        "harmony": 45.0,
+        "vocalist": 35.0,
+        "style": 55.0,
+        "file": "Let it Be.mp3"
+      },
+      {
+        "melody": 15.0,
+        "rhythm": 10.0,
+        "harmony": 10.0,
+        "vocalist": 5.0,
+        "style": 10.0,
+        "file": "We will Rock You (SUNO, no description).mp3"
+      },
+      {
+        "melody": 10.0,
+        "rhythm": 10.0,
+        "harmony": 15.0,
+        "vocalist": 10.0,
+        "style": 20.0,
+        "file": "Can't Help Falling in Love.mp3"
+      },
+      {
+        "melody": 50.0,
+        "rhythm": 65.0,
+        "harmony": 55.0,
+        "vocalist": 20.0,
+        "style": 60.0,
+        "file": "Let It Be_The Beatles_pop-comforting-male-gentle-vocal-piano-ballad-soothing-warm-melodic-vocal_tp0@93_T1@0_rp1@1_maxtk8000_99245684-2085-4d52-befa-81b5fa9f7569_mixed.mp3"
+      },
+      {
+        "melody": 10.0,
+        "rhythm": 15.0,
+        "harmony": 10.0,
+        "vocalist": 20.0,
+        "style": 15.0,
+        "file": "\u6708\u4eae\u4ee3\u8868\u6211\u7684\u5fc3_Teresa Teng__tp0@93_T1@0_rp1@1_maxtk8000_eced0844-ca95-4b84-be6a-b5985a99279f_mixed.mp3"
+      },
+      {
+        "melody": 5.0,
+        "rhythm": 10.0,
+        "harmony": 0.0,
+        "vocalist": 5.0,
+        "style": 0.0,
+        "file": "Lose Yourself.mp3"
+      },
+      {
+        "melody": 5.0,
+        "rhythm": 10.0,
+        "harmony": 5.0,
+        "vocalist": 5.0,
+        "style": 5.0,
+        "file": "Lose Yourself (intense rap).mp3"
+      }
+    ],
+    "English": [
+      {
+        "melody": 15.0,
+        "rhythm": 10.0,
+        "harmony": 10.0,
+        "vocalist": 20.0,
+        "style": 10.0,
+        "file": "Billie Jean (inspiring female uplifting pop airy vocal electronic bright vocal vocal).mp3"
+      },
+      {
+        "melody": 5.0,
+        "rhythm": 10.0,
+        "harmony": 5.0,
+        "vocalist": 10.0,
+        "style": 5.0,
+        "file": "Lose Yourself (inspiring female uplifting pop airy vocal electronic bright vocal vocal).mp3"
+      },
+      {
+        "melody": 5.0,
+        "rhythm": 10.0,
+        "harmony": 5.0,
+        "vocalist": 5.0,
+        "style": 5.0,
+        "file": "Empire State of Mind (inspiring female uplifting pop airy vocal electronic bright vocal vocal).mp3"
+      },
+      {
+        "melody": 10.0,
+        "rhythm": 15.0,
+        "harmony": 10.0,
+        "vocalist": 5.0,
+        "style": 10.0,
+        "file": "Basket Case ().mp3"
+      },
+      {
+        "melody": 95.0,
+        "rhythm": 92.0,
+        "harmony": 90.0,
+        "vocalist": 60.0,
+        "style": 88.0,
+        "file": "Let it Be (inspiring female uplifting pop airy vocal electronic bright vocal vocal).mp3"
+      },
+      {
+        "melody": 5.0,
+        "rhythm": 10.0,
+        "harmony": 10.0,
+        "vocalist": 10.0,
+        "style": 15.0,
+        "file": "Thinking Out Loud (Male-romantic-vocal-guitar-ballad-with-piano-melody).mp3"
+      }
+    ],
+    "Let_It_Be": [
+      {
+        "melody": 30.0,
+        "rhythm": 40.0,
+        "harmony": 35.0,
+        "vocalist": 20.0,
+        "style": 50.0,
+        "file": "let_it_be_v1.mp3"
+      },
+      {
+        "melody": 45.0,
+        "rhythm": 65.0,
+        "harmony": 50.0,
+        "vocalist": 30.0,
+        "style": 55.0,
+        "file": "let_it_be_v2.mp3"
+      }
+    ],
+    "Lose_Yourself": [
+      {
+        "melody": 50.0,
+        "rhythm": 70.0,
+        "harmony": 65.0,
+        "vocalist": 40.0,
+        "style": 75.0,
+        "file": "lose_yourself_intense_v1.mp3"
+      },
+      {
+        "melody": 65.0,
+        "rhythm": 85.0,
+        "harmony": 50.0,
+        "vocalist": 55.0,
+        "style": 80.0,
+        "file": "lose_yourself_intense_v2.mp3"
+      },
+      {
+        "melody": 45.0,
+        "rhythm": 55.0,
+        "harmony": 40.0,
+        "vocalist": 30.0,
+        "style": 50.0,
+        "file": "lose_yourself_v2.mp3"
+      },
+      {
+        "melody": 35.0,
+        "rhythm": 75.0,
+        "harmony": 50.0,
+        "vocalist": 30.0,
+        "style": 55.0,
+        "file": "lose_yourself_v1.mp3"
+      }
+    ],
+    "We_Will_Rock_You": [
+      {
+        "melody": 40.0,
+        "rhythm": 20.0,
+        "harmony": 30.0,
+        "vocalist": 25.0,
+        "style": 35.0,
+        "file": "we_will_rock_you_v2.mp3"
+      },
+      {
+        "melody": 20.0,
+        "rhythm": 10.0,
+        "harmony": 15.0,
+        "vocalist": 10.0,
+        "style": 15.0,
+        "file": "we_will_rock_you_v1.mp3"
+      }
+    ],
+    "APT": [
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 92.0,
+        "vocalist": 85.0,
+        "style": 93.0,
+        "file": "APT (female punk rock)_1.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 92.0,
+        "harmony": 88.0,
+        "vocalist": 75.0,
+        "style": 90.0,
+        "file": "APT_female_punk_rock_6.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 92.0,
+        "vocalist": 85.0,
+        "style": 93.0,
+        "file": "APT_female_punk_rock_5.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 92.0,
+        "harmony": 88.0,
+        "vocalist": 93.0,
+        "style": 95.0,
+        "file": "APT_female_punk_rock_4.mp3"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 90.0,
+        "harmony": 85.0,
+        "vocalist": 80.0,
+        "style": 90.0,
+        "file": "APT_female_punk_rock_1.mp3"
+      },
+      {
+        "melody": 95.0,
+        "rhythm": 95.0,
+        "harmony": 90.0,
+        "vocalist": 80.0,
+        "style": 95.0,
+        "file": "APT_female_punk_rock_3.mp3"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 90.0,
+        "harmony": 80.0,
+        "vocalist": 75.0,
+        "style": 90.0,
+        "file": "APT_female_punk_rock_2.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 93.0,
+        "vocalist": 85.0,
+        "style": 94.0,
+        "file": "APT (female punk rock)_2.wav"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 90.0,
+        "harmony": 85.0,
+        "vocalist": 65.0,
+        "style": 90.0,
+        "file": "APT_female_punk_rock.mp3"
+      }
+    ],
+    "Cantonese": [
+      {
+        "melody": 40.0,
+        "rhythm": 30.0,
+        "harmony": 35.0,
+        "vocalist": 25.0,
+        "style": 30.0,
+        "file": "\u5355\u8f66 (Bicycle) (pop-ballad-nostalgic-male-piano-emotional-Cantonese-rich-vocal).mp3"
+      },
+      {
+        "melody": 65.0,
+        "rhythm": 70.0,
+        "harmony": 75.0,
+        "vocalist": 50.0,
+        "style": 80.0,
+        "file": "\u6d77\u9614\u5929\u7a7a (The Boundless Sea And Sky) (rock-inspiring-male-electric-guitar-uplifting-Mandarin-powerful-vocal).mp3"
+      },
+      {
+        "melody": 92.0,
+        "rhythm": 90.0,
+        "harmony": 88.0,
+        "vocalist": 80.0,
+        "style": 91.0,
+        "file": "\u5149\u8f89\u5c81\u6708 (The Glorious Years) (rock-nostalgic-male-electric-guitar-emotional-Cantonese-rich-vocal).mp3"
+      },
+      {
+        "melody": 30.0,
+        "rhythm": 40.0,
+        "harmony": 20.0,
+        "vocalist": 25.0,
+        "style": 30.0,
+        "file": "\u7ea2\u65e5 (Red Sun) (pop-upbeat-male-electronic-bright-dance-Cantonese-energetic-vocal).mp3"
+      }
+    ],
+    "DNA": [
+      {
+        "melody": 70.0,
+        "rhythm": 75.0,
+        "harmony": 85.0,
+        "vocalist": 60.0,
+        "style": 80.0,
+        "file": "phoneme_DNA (rap).mp3"
+      },
+      {
+        "melody": 70.0,
+        "rhythm": 85.0,
+        "harmony": 65.0,
+        "vocalist": 60.0,
+        "style": 80.0,
+        "file": "phoneme_DNA (gangsta, rap, trap).mp3"
+      },
+      {
+        "melody": 40.0,
+        "rhythm": 60.0,
+        "harmony": 50.0,
+        "vocalist": 30.0,
+        "style": 70.0,
+        "file": "phoneme_BMA (rap)_v1.mp3"
+      },
+      {
+        "melody": 50.0,
+        "rhythm": 70.0,
+        "harmony": 40.0,
+        "vocalist": 0.0,
+        "style": 85.0,
+        "file": "phoneme_BMA (rap)_v2.mp3"
+      }
+    ],
+    "Christmas Phoneme": [
+      {
+        "melody": 30.0,
+        "rhythm": 40.0,
+        "harmony": 25.0,
+        "vocalist": 20.0,
+        "style": 30.0,
+        "file": "Giggle Shell sock (no description) 6.mp3"
+      },
+      {
+        "melody": 50.0,
+        "rhythm": 80.0,
+        "harmony": 75.0,
+        "vocalist": 40.0,
+        "style": 85.0,
+        "file": "Giggle Shell sock (christmas style) 7.mp3"
+      },
+      {
+        "melody": 45.0,
+        "rhythm": 75.0,
+        "harmony": 70.0,
+        "vocalist": 40.0,
+        "style": 85.0,
+        "file": "Giggle Shell sock (no description) 5.mp3"
+      },
+      {
+        "melody": 75.0,
+        "rhythm": 90.0,
+        "harmony": 85.0,
+        "vocalist": 60.0,
+        "style": 80.0,
+        "file": "Giggle Shell sock (no description) 4.mp3"
+      },
+      {
+        "melody": 40.0,
+        "rhythm": 50.0,
+        "harmony": 35.0,
+        "vocalist": 30.0,
+        "style": 45.0,
+        "file": "Giggle Shell sock (no description) 3.mp3"
+      },
+      {
+        "melody": 50.0,
+        "rhythm": 60.0,
+        "harmony": 55.0,
+        "vocalist": 40.0,
+        "style": 45.0,
+        "file": "Jingle Shells (SUNO, christmas style)_2.mp3"
+      },
+      {
+        "melody": 50.0,
+        "rhythm": 75.0,
+        "harmony": 70.0,
+        "vocalist": 40.0,
+        "style": 65.0,
+        "file": "Jingle Shells (SUNO, christmas style)_1.mp3"
+      },
+      {
+        "melody": 40.0,
+        "rhythm": 60.0,
+        "harmony": 50.0,
+        "vocalist": 30.0,
+        "style": 75.0,
+        "file": "Giggle Shell sock (christmas tyle) 1.mp3"
+      },
+      {
+        "melody": 75.0,
+        "rhythm": 85.0,
+        "harmony": 80.0,
+        "vocalist": 50.0,
+        "style": 90.0,
+        "file": "Giggle Shell (christmas style) 1.mp3"
+      },
+      {
+        "melody": 35.0,
+        "rhythm": 60.0,
+        "harmony": 40.0,
+        "vocalist": 30.0,
+        "style": 50.0,
+        "file": "Giggle Shell sock (christmas tyle) 2.mp3"
+      },
+      {
+        "melody": 50.0,
+        "rhythm": 60.0,
+        "harmony": 40.0,
+        "vocalist": 30.0,
+        "style": 35.0,
+        "file": "Giggle Shell (christmas style) 2.mp3"
+      },
+      {
+        "melody": 75.0,
+        "rhythm": 85.0,
+        "harmony": 70.0,
+        "vocalist": 60.0,
+        "style": 90.0,
+        "file": "Jingle Shells (SUNO, no genre)_2.mp3"
+      },
+      {
+        "melody": 50.0,
+        "rhythm": 75.0,
+        "harmony": 65.0,
+        "vocalist": 40.0,
+        "style": 70.0,
+        "file": "Giggle Shell sock (christmas style) 8.mp3"
+      },
+      {
+        "melody": 40.0,
+        "rhythm": 70.0,
+        "harmony": 60.0,
+        "vocalist": 30.0,
+        "style": 50.0,
+        "file": "Jingle Shells (SUNO, no genre)_1.mp3"
+      }
+    ],
+    "Espresso": [
+      {
+        "melody": 40.0,
+        "rhythm": 60.0,
+        "harmony": 55.0,
+        "vocalist": 30.0,
+        "style": 70.0,
+        "file": "espresso_v1.mp3"
+      },
+      {
+        "melody": 50.0,
+        "rhythm": 60.0,
+        "harmony": 45.0,
+        "vocalist": 30.0,
+        "style": 55.0,
+        "file": "espresso_v2.mp3"
+      }
+    ]
+  },
+  "statistics": {
+    "Gentlemen": {
+      "melody": {
+        "mean": 93.33333333333333,
+        "std": 2.8867513459481287,
+        "ci_95_lower": 86.16224545041756,
+        "ci_95_upper": 100.5044212162491,
+        "n": 3
+      },
+      "rhythm": {
+        "mean": 96.66666666666667,
+        "std": 1.5275252316519468,
+        "ci_95_lower": 92.8720836330699,
+        "ci_95_upper": 100.46124970026344,
+        "n": 3
+      },
+      "harmony": {
+        "mean": 94.0,
+        "std": 1.7320508075688772,
+        "ci_95_lower": 89.69734727025053,
+        "ci_95_upper": 98.30265272974947,
+        "n": 3
+      }
+    },
+    "DOPE": {
+      "melody": {
+        "mean": 90.0,
+        "std": 0,
+        "ci_95_lower": 90.0,
+        "ci_95_upper": 90.0,
+        "n": 1
+      },
+      "rhythm": {
+        "mean": 92.0,
+        "std": 0,
+        "ci_95_lower": 92.0,
+        "ci_95_upper": 92.0,
+        "n": 1
+      },
+      "harmony": {
+        "mean": 88.0,
+        "std": 0,
+        "ci_95_lower": 88.0,
+        "ci_95_upper": 88.0,
+        "n": 1
+      }
+    },
+    "Gangnam Style": {
+      "melody": {
+        "mean": 90.0,
+        "std": 0.0,
+        "ci_95_lower": NaN,
+        "ci_95_upper": NaN,
+        "n": 3
+      },
+      "rhythm": {
+        "mean": 94.33333333333333,
+        "std": 1.1547005383792517,
+        "ci_95_lower": 91.46489818016703,
+        "ci_95_upper": 97.20176848649963,
+        "n": 3
+      },
+      "harmony": {
+        "mean": 90.33333333333333,
+        "std": 2.5166114784235836,
+        "ci_95_lower": 84.08172385395756,
+        "ci_95_upper": 96.5849428127091,
+        "n": 3
+      }
+    },
+    "HUMBLE": {
+      "melody": {
+        "mean": 88.75,
+        "std": 2.5,
+        "ci_95_lower": 84.77194211839536,
+        "ci_95_upper": 92.72805788160464,
+        "n": 4
+      },
+      "rhythm": {
+        "mean": 93.75,
+        "std": 2.5,
+        "ci_95_lower": 89.77194211839536,
+        "ci_95_upper": 97.72805788160464,
+        "n": 4
+      },
+      "harmony": {
+        "mean": 87.0,
+        "std": 2.449489742783178,
+        "ci_95_lower": 83.10231520912467,
+        "ci_95_upper": 90.89768479087533,
+        "n": 4
+      }
+    },
+    "Mandarin": {
+      "melody": {
+        "mean": 38.75,
+        "std": 23.41397629011966,
+        "ci_95_lower": 19.175425962917956,
+        "ci_95_upper": 58.324574037082044,
+        "n": 8
+      },
+      "rhythm": {
+        "mean": 33.125,
+        "std": 24.3394887843955,
+        "ci_95_lower": 12.776678154473657,
+        "ci_95_upper": 53.47332184552634,
+        "n": 8
+      },
+      "harmony": {
+        "mean": 32.75,
+        "std": 24.881146046181808,
+        "ci_95_lower": 11.948841351267639,
+        "ci_95_upper": 53.55115864873236,
+        "n": 8
+      }
+    },
+    "Phoneme": {
+      "melody": {
+        "mean": 20.714285714285715,
+        "std": 20.295436972501037,
+        "ci_95_lower": 1.944137120011284,
+        "ci_95_upper": 39.48443430856015,
+        "n": 7
+      },
+      "rhythm": {
+        "mean": 25.714285714285715,
+        "std": 25.236972122359727,
+        "ci_95_lower": 2.3739793465003025,
+        "ci_95_upper": 49.054592082071125,
+        "n": 7
+      },
+      "harmony": {
+        "mean": 20.0,
+        "std": 21.213203435596427,
+        "ci_95_lower": 0.3810589943829079,
+        "ci_95_upper": 39.61894100561709,
+        "n": 7
+      }
+    },
+    "English": {
+      "melody": {
+        "mean": 22.5,
+        "std": 35.742132001323036,
+        "ci_95_lower": -15.009067168055182,
+        "ci_95_upper": 60.00906716805518,
+        "n": 6
+      },
+      "rhythm": {
+        "mean": 24.5,
+        "std": 33.12853754695489,
+        "ci_95_lower": -10.26626799940675,
+        "ci_95_upper": 59.26626799940675,
+        "n": 6
+      },
+      "harmony": {
+        "mean": 21.666666666666668,
+        "std": 33.56585566713095,
+        "ci_95_lower": -13.558538554025152,
+        "ci_95_upper": 56.89187188735849,
+        "n": 6
+      }
+    },
+    "Let_It_Be": {
+      "melody": {
+        "mean": 37.5,
+        "std": 10.606601717798213,
+        "ci_95_lower": -57.796535521310204,
+        "ci_95_upper": 132.7965355213102,
+        "n": 2
+      },
+      "rhythm": {
+        "mean": 52.5,
+        "std": 17.67766952966369,
+        "ci_95_lower": -106.32755920218366,
+        "ci_95_upper": 211.32755920218366,
+        "n": 2
+      },
+      "harmony": {
+        "mean": 42.5,
+        "std": 10.606601717798213,
+        "ci_95_lower": -52.796535521310204,
+        "ci_95_upper": 137.7965355213102,
+        "n": 2
+      }
+    },
+    "Lose_Yourself": {
+      "melody": {
+        "mean": 48.75,
+        "std": 12.5,
+        "ci_95_lower": 28.859710591976828,
+        "ci_95_upper": 68.64028940802316,
+        "n": 4
+      },
+      "rhythm": {
+        "mean": 71.25,
+        "std": 12.5,
+        "ci_95_lower": 51.35971059197683,
+        "ci_95_upper": 91.14028940802316,
+        "n": 4
+      },
+      "harmony": {
+        "mean": 51.25,
+        "std": 10.307764064044152,
+        "ci_95_lower": 34.84804716932325,
+        "ci_95_upper": 67.65195283067675,
+        "n": 4
+      }
+    },
+    "We_Will_Rock_You": {
+      "melody": {
+        "mean": 30.0,
+        "std": 14.142135623730951,
+        "ci_95_lower": -97.06204736174695,
+        "ci_95_upper": 157.06204736174695,
+        "n": 2
+      },
+      "rhythm": {
+        "mean": 15.0,
+        "std": 7.0710678118654755,
+        "ci_95_lower": -48.531023680873474,
+        "ci_95_upper": 78.53102368087347,
+        "n": 2
+      },
+      "harmony": {
+        "mean": 22.5,
+        "std": 10.606601717798213,
+        "ci_95_lower": -72.7965355213102,
+        "ci_95_upper": 117.7965355213102,
+        "n": 2
+      }
+    },
+    "APT": {
+      "melody": {
+        "mean": 88.88888888888889,
+        "std": 3.3333333333333335,
+        "ci_95_lower": 86.32666207199537,
+        "ci_95_upper": 91.4511157057824,
+        "n": 9
+      },
+      "rhythm": {
+        "mean": 92.66666666666667,
+        "std": 2.345207879911715,
+        "ci_95_lower": 90.86398031033673,
+        "ci_95_upper": 94.46935302299661,
+        "n": 9
+      },
+      "harmony": {
+        "mean": 88.11111111111111,
+        "std": 4.226240777701989,
+        "ci_95_lower": 84.86253487452802,
+        "ci_95_upper": 91.3596873476942,
+        "n": 9
+      }
+    },
+    "Cantonese": {
+      "melody": {
+        "mean": 56.75,
+        "std": 27.729346668586814,
+        "ci_95_lower": 12.626421573312399,
+        "ci_95_upper": 100.8735784266876,
+        "n": 4
+      },
+      "rhythm": {
+        "mean": 57.5,
+        "std": 27.537852736430512,
+        "ci_95_lower": 13.681131151749938,
+        "ci_95_upper": 101.31886884825006,
+        "n": 4
+      },
+      "harmony": {
+        "mean": 54.5,
+        "std": 32.212833881337836,
+        "ci_95_lower": 3.2421929158092837,
+        "ci_95_upper": 105.75780708419072,
+        "n": 4
+      }
+    },
+    "DNA": {
+      "melody": {
+        "mean": 57.5,
+        "std": 15.0,
+        "ci_95_lower": 33.631652710372194,
+        "ci_95_upper": 81.3683472896278,
+        "n": 4
+      },
+      "rhythm": {
+        "mean": 72.5,
+        "std": 10.408329997330663,
+        "ci_95_lower": 55.938024327910725,
+        "ci_95_upper": 89.06197567208928,
+        "n": 4
+      },
+      "harmony": {
+        "mean": 60.0,
+        "std": 19.578900207451216,
+        "ci_95_lower": 28.84560068663923,
+        "ci_95_upper": 91.15439931336077,
+        "n": 4
+      }
+    },
+    "Christmas Phoneme": {
+      "melody": {
+        "mean": 50.357142857142854,
+        "std": 14.736700094333523,
+        "ci_95_lower": 41.848425544855736,
+        "ci_95_upper": 58.86586016942997,
+        "n": 14
+      },
+      "rhythm": {
+        "mean": 68.92857142857143,
+        "std": 14.435342769713536,
+        "ci_95_lower": 60.593852655222115,
+        "ci_95_upper": 77.26329020192074,
+        "n": 14
+      },
+      "harmony": {
+        "mean": 58.57142857142857,
+        "std": 18.23232246362439,
+        "ci_95_lower": 48.04439899245972,
+        "ci_95_upper": 69.09845815039742,
+        "n": 14
+      }
+    },
+    "Espresso": {
+      "melody": {
+        "mean": 45.0,
+        "std": 7.0710678118654755,
+        "ci_95_lower": -18.531023680873474,
+        "ci_95_upper": 108.53102368087347,
+        "n": 2
+      },
+      "rhythm": {
+        "mean": 60.0,
+        "std": 0.0,
+        "ci_95_lower": NaN,
+        "ci_95_upper": NaN,
+        "n": 2
+      },
+      "harmony": {
+        "mean": 50.0,
+        "std": 7.0710678118654755,
+        "ci_95_lower": -13.531023680873474,
+        "ci_95_upper": 113.53102368087347,
+        "n": 2
+      }
+    }
+  }
+}

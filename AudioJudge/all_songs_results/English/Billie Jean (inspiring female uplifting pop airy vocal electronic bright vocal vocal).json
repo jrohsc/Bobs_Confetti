@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/English/original/Let it Be.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/English/generated/Billie Jean (inspiring female uplifting pop airy vocal electronic bright vocal vocal).mp3",
+  "scores": {
+    "melody": 10.0,
+    "rhythm": 5.0,
+    "harmony": 10.0,
+    "vocalist": 20.0,
+    "style": 15.0
+  }
+}

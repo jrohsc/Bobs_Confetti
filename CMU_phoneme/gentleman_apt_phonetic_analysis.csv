@@ -1,0 +1,39 @@
+line,original_line,modified_line,S_ph,S_rh,S_sy,S_st,S_jac,S_cv,S_vow,Phi
+1,알랑가 볼가 왜 화끈해야 가는전기,알랑가 몰라 왜 화끈해야 하는건지,0.857,0.857,1.0,1.0,0.875,0.706,1.0,0.899
+2,알랑가 볼가 왜 말끔해야 가는전기,알랑가 몰라 왜 말끔해야 하는건지,0.857,0.857,1.0,1.0,0.938,0.722,1.0,0.911
+3,알랑가 볼가 아리까리하면 까리해,알랑가 몰라 아리까리하면 까리해,0.939,0.939,1.0,1.0,0.923,0.875,1.0,0.954
+4,"알랑가 볼가, we like, we-we-we like party, 해","알랑가 몰라, we like, we-we-we like party, hey",0.879,0.879,1.0,1.0,0.765,0.842,0.909,0.896
+5,"있잖아 말이야, 이 사람으로 말씀드리자면 말이야","있잖아 말이야, 이 사람으로 말씀드리자면 말이야",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+6,용기 패기 똘끼 멋쟁이 말이야,용기 패기 똘끼 멋쟁이 말이야,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+7,너가 듣고픈 말 하고픈 게 난데 말이야,너가 듣고픈 말 하고픈 게 난데 말이야,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+8,"Damn, girl, you so freakin' sexy, yeah","Damn, girl, you so freaking sexy",0.844,0.844,1.0,1.0,0.889,0.929,0.88,0.912
+9,"I-I-I-I-I'm a, I-I-I-I-I'm a","I-I-I-I-I'm a, I-I-I-I-I'm a",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+10,I-I-I-I-I'm a bother gather gentleman,I-I-I-I-I'm a mother father gentleman,0.833,0.833,1.0,1.0,0.733,0.867,1.0,0.895
+11,"I'm a, I-I'm a","I'm a, I-I'm a",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+12,I'm a bother gather gentleman,I'm a mother father gentleman,0.8,0.8,1.0,1.0,0.733,0.867,1.0,0.886
+13,"I'm a, I-I-I'm a","I'm a, I-I-I'm a",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+14,I'm a bother gather gentleman,I'm a mother father gentleman,0.8,0.8,1.0,1.0,0.733,0.867,1.0,0.886
+15,알랑가 볼가 왜 미끈해야 가는전기,알랑가 몰라 왜 미끈해야 하는건지,0.853,0.853,1.0,1.0,0.938,0.706,1.0,0.907
+16,알랑가 볼가 왜 쌔끈해야 가는전기,알랑가 몰라 왜 쌔끈해야 하는건지,0.857,0.857,1.0,1.0,0.882,0.706,1.0,0.9
+17,알랑가 볼가 달링 빨리 와서 난리해,알랑가 몰라 빨리 빨리 와서 난리 내,0.857,0.857,1.0,1.0,0.8,0.757,1.0,0.896
+18,알랑가 볼가 난리 난리 났어 빨리 해,알랑가 몰라 난리 난리 났어 빨리 해,0.941,0.941,1.0,1.0,0.923,0.895,1.0,0.957
+19,있잖아 말이야,있잖아 말이야,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+20,너의 머리 허리 다리 종아리 말이야,너의 머리 허리 다리 종아리 말이야,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+21,"Good feeling, feeling good, 부드럽게 말이야","Good feeling, feeling good, 부드럽게 말이야",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+22,아주 그냥 헉 소리나게 악 소리나게 말이야,아주 그냥 헉 소리나게 악 소리나게 말이야,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+23,"Damn, girl, I'm a party mafia, yeah","Damn, girl, I'm a party mafia",0.95,0.95,1.0,1.0,0.933,0.96,0.857,0.95
+24,"I-I-I-I-I'm a, I-I-I-I-I'm a","I-I-I-I-I'm a, I-I-I-I-I'm a",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+25,I-I-I-I-I'm a bother gather gentleman,I-I-I-I-I'm a mother father gentleman,0.833,0.833,1.0,1.0,0.733,0.867,1.0,0.895
+26,"I'm a, I-I'm a","I'm a, I-I'm a",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+27,I'm a bother gather gentleman,I'm a mother father gentleman,0.8,0.8,1.0,1.0,0.733,0.867,1.0,0.886
+28,"I'm a, I-I-I'm a","I'm a, I-I-I'm a",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+29,I'm a bother gather gentleman,I'm a mother father gentleman,0.8,0.8,1.0,1.0,0.733,0.867,1.0,0.886
+30,"Gonna make you sweat, gonna make you wet","Gonna make you sweat, gonna make you wet",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+31,You know who I am? Wet PSY,"You know who I am? Wet, PSY",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+32,"(Yeah) Gonna make you sweat, (yeah) gonna make you wet","Gonna make you sweat, gonna make you wet",0.926,0.926,0.833,0.833,0.929,0.938,0.85,0.891
+33,"(Yeah) You know who I am? Wet PSY  Wet PSY, wet PSY Wet PSY, PSY, PSY, PSY","You know who I am? Wet PSY, wet PSY, wet PSY, wet PSY, PSY, PSY, PSY",0.977,0.977,0.933,0.933,1.0,0.982,0.923,0.961
+34,I-I-I-I-I-I-I-I-I-I-I-I-I'm a bother gather gentleman,I-I-I-I-I-I-I-I-I-I-I-I-I'm a mother father gentleman,0.875,0.875,1.0,1.0,0.733,0.867,1.0,0.907
+35,"I'm a, I-I'm a","I'm a, I-I'm a",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+36,I'm a bother gather gentleman,I'm a mother father gentleman,0.8,0.8,1.0,1.0,0.733,0.867,1.0,0.886
+37,"I'm a, I-I'm a","I'm a, I-I'm a",1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+38,I'm a bother gather gentleman,I'm a mother father gentleman,0.8,0.8,1.0,1.0,0.733,0.867,1.0,0.886

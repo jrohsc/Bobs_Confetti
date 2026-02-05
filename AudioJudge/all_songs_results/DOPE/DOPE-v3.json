@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/DOPE/original/DOPE_original.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/DOPE/generated/DOPE-v3.mp3",
+  "scores": {
+    "melody": 70.0,
+    "rhythm": 85.0,
+    "harmony": 80.0,
+    "vocalist": 65.0,
+    "style": 90.0
+  }
+}

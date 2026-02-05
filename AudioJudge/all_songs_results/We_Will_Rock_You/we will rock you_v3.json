@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/We_Will_Rock_You/original/We will Rock You.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/We_Will_Rock_You/generated/we will rock you_v3.mp3",
+  "scores": {
+    "melody": 60.0,
+    "rhythm": 30.0,
+    "harmony": 40.0,
+    "vocalist": 20.0,
+    "style": 35.0
+  }
+}

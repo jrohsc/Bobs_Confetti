@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Gangnam Style/original/Gangnam_Style_original.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Gangnam Style/generated/Gangnam_Style_generated.mp3",
+  "scores": {
+    "melody": 90.0,
+    "rhythm": 95.0,
+    "harmony": 90.0,
+    "vocalist": 75.0,
+    "style": 92.0
+  }
+}

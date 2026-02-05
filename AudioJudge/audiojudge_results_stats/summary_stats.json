@@ -1,0 +1,352 @@
+{
+  "all_results": {
+    "Christmas": [
+      {
+        "melody": 30.0,
+        "rhythm": 60.0,
+        "harmony": 40.0,
+        "vocalist": 0.0,
+        "style": 50.0,
+        "file": "Giggle Shell sock (no description) 6.mp3"
+      },
+      {
+        "melody": 30.0,
+        "rhythm": 50.0,
+        "harmony": 40.0,
+        "vocalist": 60.0,
+        "style": 55.0,
+        "file": "Giggle Shell sock (christmas style) 7.mp3"
+      },
+      {
+        "melody": 20.0,
+        "rhythm": 65.0,
+        "harmony": 40.0,
+        "vocalist": 35.0,
+        "style": 55.0,
+        "file": "Giggle Shell sock (no description) 5.mp3"
+      },
+      {
+        "melody": 15.0,
+        "rhythm": 60.0,
+        "harmony": 55.0,
+        "vocalist": 20.0,
+        "style": 25.0,
+        "file": "Giggle Shell sock (no description) 4.mp3"
+      },
+      {
+        "melody": 20.0,
+        "rhythm": 80.0,
+        "harmony": 65.0,
+        "vocalist": 10.0,
+        "style": 70.0,
+        "file": "Giggle Shell sock (no description) 3.mp3"
+      },
+      {
+        "melody": 82.0,
+        "rhythm": 78.0,
+        "harmony": 75.0,
+        "vocalist": 57.0,
+        "style": 70.0,
+        "file": "Jingle Shells (SUNO, christmas style)_2.mp3"
+      },
+      {
+        "melody": 60.0,
+        "rhythm": 70.0,
+        "harmony": 50.0,
+        "vocalist": 40.0,
+        "style": 65.0,
+        "file": "Jingle Shells (SUNO, christmas style)_1.mp3"
+      },
+      {
+        "melody": 20.0,
+        "rhythm": 45.0,
+        "harmony": 30.0,
+        "vocalist": 35.0,
+        "style": 25.0,
+        "file": "Giggle Shell sock (christmas tyle) 1.mp3"
+      },
+      {
+        "melody": 35.0,
+        "rhythm": 80.0,
+        "harmony": 75.0,
+        "vocalist": 60.0,
+        "style": 70.0,
+        "file": "Giggle Shell (christmas style) 1.mp3"
+      },
+      {
+        "melody": 20.0,
+        "rhythm": 30.0,
+        "harmony": 25.0,
+        "vocalist": 50.0,
+        "style": 15.0,
+        "file": "Giggle Shell sock (christmas tyle) 2.mp3"
+      },
+      {
+        "melody": 45.0,
+        "rhythm": 85.0,
+        "harmony": 70.0,
+        "vocalist": 20.0,
+        "style": 60.0,
+        "file": "Giggle Shell (christmas style) 2.mp3"
+      },
+      {
+        "melody": 56.0,
+        "rhythm": 75.0,
+        "harmony": 60.0,
+        "vocalist": 30.0,
+        "style": 65.0,
+        "file": "Jingle Shells (SUNO, no genre)_2.mp3"
+      },
+      {
+        "melody": 10.0,
+        "rhythm": 40.0,
+        "harmony": 55.0,
+        "vocalist": 5.0,
+        "style": 35.0,
+        "file": "Giggle Shell sock (christmas style) 8.mp3"
+      },
+      {
+        "melody": 55.0,
+        "rhythm": 70.0,
+        "harmony": 50.0,
+        "vocalist": 20.0,
+        "style": 45.0,
+        "file": "Jingle Shells (SUNO, no genre)_1.mp3"
+      }
+    ],
+    "DNA": [
+      {
+        "melody": 91.5,
+        "rhythm": 95.0,
+        "harmony": 98.0,
+        "vocalist": 83.0,
+        "style": 94.0,
+        "file": "DNA (rap).mp3"
+      },
+      {
+        "melody": 92.0,
+        "rhythm": 95.5,
+        "harmony": 90.0,
+        "vocalist": 85.0,
+        "style": 96.0,
+        "file": "DNA (gangsta, rap, trap).mp3"
+      },
+      {
+        "melody": 75.0,
+        "rhythm": 90.0,
+        "harmony": 90.0,
+        "vocalist": 80.0,
+        "style": 88.0,
+        "file": "phoneme_DNA (rap).mp3"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 90.0,
+        "harmony": 80.0,
+        "vocalist": 70.0,
+        "style": 88.0,
+        "file": "phoneme_DNA (gangsta, rap, trap).mp3"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 90.0,
+        "harmony": 88.0,
+        "vocalist": 88.0,
+        "style": 90.0,
+        "file": "phoneme_BMA (rap)_v1.mp3"
+      },
+      {
+        "melody": 70.0,
+        "rhythm": 80.0,
+        "harmony": 85.0,
+        "vocalist": 65.0,
+        "style": 75.0,
+        "file": "phoneme_BMA (rap)_v2.mp3"
+      },
+      {
+        "melody": 97.0,
+        "rhythm": 94.0,
+        "harmony": 96.0,
+        "vocalist": 79.0,
+        "style": 92.0,
+        "file": "DNA (rap)_v1.mp3"
+      },
+      {
+        "melody": 75.0,
+        "rhythm": 85.0,
+        "harmony": 80.0,
+        "vocalist": 70.0,
+        "style": 90.0,
+        "file": "DNA (rap)_v2.mp3"
+      }
+    ],
+    "APT": [
+      {
+        "melody": 85.0,
+        "rhythm": 80.0,
+        "harmony": 78.0,
+        "vocalist": 75.0,
+        "style": 82.0,
+        "file": "APT (female punk rock)_1.mp3"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 90.0,
+        "harmony": 88.0,
+        "vocalist": 82.0,
+        "style": 90.0,
+        "file": "APT_female_punk_rock_6.mp3"
+      },
+      {
+        "melody": 97.5,
+        "rhythm": 95.0,
+        "harmony": 94.0,
+        "vocalist": 92.5,
+        "style": 97.0,
+        "file": "APT_female_punk_rock_5.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 88.0,
+        "harmony": 90.0,
+        "vocalist": 85.0,
+        "style": 92.0,
+        "file": "APT_female_punk_rock_4.mp3"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 80.0,
+        "harmony": 82.0,
+        "vocalist": 75.0,
+        "style": 83.0,
+        "file": "APT_female_punk_rock_1.mp3"
+      },
+      {
+        "melody": 84.0,
+        "rhythm": 95.0,
+        "harmony": 90.0,
+        "vocalist": 78.0,
+        "style": 92.0,
+        "file": "APT_female_punk_rock_3.mp3"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 90.0,
+        "harmony": 85.0,
+        "vocalist": 70.0,
+        "style": 88.0,
+        "file": "APT_female_punk_rock_2.mp3"
+      },
+      {
+        "melody": 90.0,
+        "rhythm": 95.0,
+        "harmony": 88.0,
+        "vocalist": 85.0,
+        "style": 90.0,
+        "file": "APT (female punk rock)_2.wav"
+      },
+      {
+        "melody": 85.0,
+        "rhythm": 94.0,
+        "harmony": 90.0,
+        "vocalist": 82.0,
+        "style": 95.0,
+        "file": "APT_female_punk_rock.mp3"
+      }
+    ]
+  },
+  "statistics": {
+    "Christmas": {
+      "melody": {
+        "mean": 35.57142857142857,
+        "std": 21.022750627737654,
+        "ci_95_lower": 23.43325373765017,
+        "ci_95_upper": 47.70960340520697,
+        "n": 14
+      },
+      "rhythm": {
+        "mean": 63.42857142857143,
+        "std": 16.777797993017604,
+        "ci_95_lower": 53.74135927583041,
+        "ci_95_upper": 73.11578358131244,
+        "n": 14
+      },
+      "harmony": {
+        "mean": 52.142857142857146,
+        "std": 15.898026693500448,
+        "ci_95_lower": 42.96360981528939,
+        "ci_95_upper": 61.322104470424904,
+        "n": 14
+      }
+    },
+    "DNA": {
+      "melody": {
+        "mean": 83.8125,
+        "std": 9.628593948680743,
+        "ci_95_lower": 75.76279401302567,
+        "ci_95_upper": 91.86220598697433,
+        "n": 8
+      },
+      "rhythm": {
+        "mean": 89.9375,
+        "std": 5.294454646136843,
+        "ci_95_lower": 85.51122514720997,
+        "ci_95_upper": 94.36377485279003,
+        "n": 8
+      },
+      "harmony": {
+        "mean": 88.375,
+        "std": 6.631903411324901,
+        "ci_95_lower": 82.83058999790492,
+        "ci_95_upper": 93.91941000209508,
+        "n": 8
+      }
+    },
+    "APT_best3": {
+      "melody": {
+        "mean": 92.5,
+        "std": 4.330127018922194,
+        "ci_95_lower": 81.74336817575964,
+        "ci_95_upper": 103.25663182424036,
+        "n": 3
+      },
+      "rhythm": {
+        "mean": 92.66666666666667,
+        "std": 4.041451884327381,
+        "ci_95_lower": 82.62714363070901,
+        "ci_95_upper": 102.70618970262433,
+        "n": 3
+      },
+      "harmony": {
+        "mean": 90.66666666666667,
+        "std": 3.055050463303893,
+        "ci_95_lower": 83.0775005995672,
+        "ci_95_upper": 98.25583273376614,
+        "n": 3
+      }
+    },
+    "APT": {
+      "melody": {
+        "mean": 87.38888888888889,
+        "std": 4.414307546049676,
+        "ci_95_lower": 83.99575173713772,
+        "ci_95_upper": 90.78202604064005,
+        "n": 9
+      },
+      "rhythm": {
+        "mean": 89.66666666666667,
+        "std": 6.06217782649107,
+        "ci_95_lower": 85.00686428792287,
+        "ci_95_upper": 94.32646904541048,
+        "n": 9
+      },
+      "harmony": {
+        "mean": 87.22222222222223,
+        "std": 4.8419463487779835,
+        "ci_95_lower": 83.50037278798264,
+        "ci_95_upper": 90.94407165646182,
+        "n": 9
+      }
+    }
+  }
+}

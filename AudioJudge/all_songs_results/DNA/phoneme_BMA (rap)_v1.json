@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/DNA/original/DNA_original.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/DNA/generated/phoneme_BMA (rap)_v1.mp3",
+  "scores": {
+    "melody": 40.0,
+    "rhythm": 60.0,
+    "harmony": 50.0,
+    "vocalist": 30.0,
+    "style": 70.0
+  }
+}

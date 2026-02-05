@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Let_It_Be/original/Let it Be.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Let_It_Be/generated/let_it_be_v1.mp3",
+  "scores": {
+    "melody": 30.0,
+    "rhythm": 40.0,
+    "harmony": 20.0,
+    "vocalist": 25.0,
+    "style": 35.0
+  }
+}

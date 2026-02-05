@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Phoneme/original/Let it Be.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Phoneme/generated/We will Rock You (SUNO, no description).mp3",
+  "scores": {
+    "melody": 10.0,
+    "rhythm": 5.0,
+    "harmony": 10.0,
+    "vocalist": 5.0,
+    "style": 5.0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Lose_Yourself/original/Lose Yourself.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Lose_Yourself/generated/lose_yourself_v2.mp3",
+  "scores": {
+    "melody": 30.0,
+    "rhythm": 60.0,
+    "harmony": 50.0,
+    "vocalist": 20.0,
+    "style": 40.0
+  }
+}

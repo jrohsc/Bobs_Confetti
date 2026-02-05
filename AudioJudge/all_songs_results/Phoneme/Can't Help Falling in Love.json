@@ -1,0 +1,11 @@
+{
+  "original": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Phoneme/original/Let it Be.mp3",
+  "generated": "/Users/jroh/Documents/GitHub/Bobs_Confetti/audio/Phoneme/generated/Can't Help Falling in Love.mp3",
+  "scores": {
+    "melody": 5.0,
+    "rhythm": 10.0,
+    "harmony": 5.0,
+    "vocalist": 10.0,
+    "style": 10.0
+  }
+}
