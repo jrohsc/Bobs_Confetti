@@ -1,0 +1,47 @@
+songA,songB,clap_score,song,coverID
+APT_original,APT (female punk rock)_1,0.8131353259086609,APT,0.1826572865247726
+APT_original,APT (female punk rock)_2,0.8517146110534668,APT,0.1188219860196113
+APT_original,APT_female_punk_rock,0.7632591128349304,APT,0.175187736749649
+APT_original,APT_female_punk_rock_1,0.8380091190338135,APT,0.113543577492237
+APT_original,APT_female_punk_rock_2,0.8120408058166504,APT,0.1705115437507629
+APT_original,APT_female_punk_rock_3,0.7942537069320679,APT,0.1617489904165268
+APT_original,APT_female_punk_rock_4,0.7897858619689941,APT,0.1258271485567093
+APT_original,APT_female_punk_rock_5,0.6982609033584595,APT,0.1680606305599212
+APT_original,APT_female_punk_rock_6,0.8212729096412659,APT,0.168015256524086
+DNA_original,phoneme_BMA (rap)_v1,0.685808002948761,DNA,0.3428435623645782
+DNA_original,phoneme_BMA (rap)_v2,0.7222740650177002,DNA,0.1820983737707138
+DNA_original,"phoneme_DNA (gangsta, rap, trap)",0.6859091520309448,DNA,0.2209512293338775
+DNA_original,phoneme_DNA (rap),0.6886247992515564,DNA,0.1762120872735977
+DOPE_original,DOPE-generated-1,0.7459666728973389,DOPE,0.1739938110113144
+DOPE_original,DOPE-v2,0.7325916290283203,DOPE,0.1960784345865249
+DOPE_original,DOPE-v3,0.7149964570999146,DOPE,0.1667162030935287
+DOPE_original,DOPE-v4,0.7345266342163086,DOPE,0.2759043276309967
+Espresso_original,espresso (2),0.6998758316040039,Espresso,0.152028739452362
+Espresso_original,espresso (3),0.6700201034545898,Espresso,0.1115525588393211
+Espresso_original,espresso_v1,0.6548405289649963,Espresso,0.1155461221933364
+Espresso_original,espresso_v2,0.6297916173934937,Espresso,0.1132545173168182
+Gangnam_Style_original,Gangnam_Style_generated,0.8879439830780029,Gangnam_Style,0.1396114379167556
+Gangnam_Style_original,gangnam_style_v1,0.697075605392456,Gangnam_Style,0.1184192523360252
+Gangnam_Style_original,gangnam_style_v2,0.6607257127761841,Gangnam_Style,0.1319135427474975
+Gentlemen_original,Gentlemen_generated,0.8306427001953125,Gentlemen,0.3342693150043487
+Gentlemen_original,gentleman_v1,0.6360816955566406,Gentlemen,0.211953118443489
+Gentlemen_original,gentleman_v2,0.7365198135375977,Gentlemen,0.4208778142929077
+HUMBLE,HUMBLE_generated_1,0.5368715524673462,HUMBLE,0.1073535606265068
+HUMBLE,HUMBLE_generated_2,0.8527251482009888,HUMBLE,0.1349994540214538
+HUMBLE,HUMBLE_generated_3,0.6944588422775269,HUMBLE,0.1692001074552536
+HUMBLE,HUMBLE_generated_4,0.7639853358268738,HUMBLE,0.0708086639642715
+Let it Be,let_it_be_v1,0.6353256702423096,Let_It_Be,0.386234313249588
+Let it Be,let_it_be_v2,0.6363829970359802,Let_It_Be,0.6227810382843018
+Let it Be,let_it_be_v3,0.6599876880645752,Let_It_Be,0.4665015637874603
+Lose Yourself,lose_yourself_intense_v1,0.6857955455780029,Lose_Yourself,0.199772223830223
+Lose Yourself,lose_yourself_intense_v2,0.702202558517456,Lose_Yourself,0.1775102168321609
+Lose Yourself,lose_yourself_v1,0.5896906852722168,Lose_Yourself,0.5170116424560547
+Lose Yourself,lose_yourself_v2,0.5436926484107971,Lose_Yourself,0.2945570349693298
+We will Rock You,we will rock you_v3,0.5426511764526367,We_Will_Rock_You,0.3583707809448242
+We will Rock You,we_will_rock_you_v1,0.5844496488571167,We_Will_Rock_You,0.2240644842386245
+We will Rock You,we_will_rock_you_v2,0.632813572883606,We_Will_Rock_You,0.3294423222541809
+Can't Help Falling in Love,Can't Help Falling in Love,0.5475399494171143,cant_help_falling_in_love_with_you,0.403026670217514
+Can't Help Falling in Love,can't_help_falling_in_love_with_you (1),0.6846345663070679,cant_help_falling_in_love_with_you,0.2158475220203399
+Can't Help Falling in Love,can't_help_falling_in_love_with_you (2),0.5320197939872742,cant_help_falling_in_love_with_you,0.899700939655304
+Can't Help Falling in Love,can't_help_falling_in_love_with_you (3),0.5951601266860962,cant_help_falling_in_love_with_you,0.2286109775304794
+Can't Help Falling in Love,can't_help_falling_in_love_with_you,0.47200608253479,cant_help_falling_in_love_with_you,0.694915235042572

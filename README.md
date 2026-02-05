@@ -33,6 +33,10 @@ Bobs_Confetti/
 │   ├── audio_wav/              # Converted WAV files
 │   └── audiojudge_results/     # Evaluation results (JSON/TXT)
 │
+├── MiRA/                        # MiRA audio metrics (CLAP & CoverID)
+│   ├── run_clap_coverid.py     # Batch evaluation script
+│   └── MiRA results/           # CLAP and CoverID CSV results
+│
 ├── gpt_embedding/               # GPT text embeddings (.npy)
 ├── yue_embedding/               # YuE model embeddings (.pt)
 ├── paper_lyrics/                # APT-modified lyrics used in paper
@@ -76,7 +80,66 @@ cd AudioJudge
 python batch_audiojudge.py
 ```
 
-### 3. Embedding Analysis
+### 3. MiRA Audio Metrics (CLAP & CoverID)
+
+[MiRA](https://github.com/roserbatlleroca/mira) (Music Information Retrieval Annotation) provides objective audio similarity metrics used in our evaluation:
+
+- **CLAP**: Contrastive Language-Audio Pretraining score (higher = more similar)
+- **CoverID**: Cover song identification distance (lower = more similar)
+
+#### MiRA Setup
+
+Follow the official MiRA installation guide at: https://github.com/roserbatlleroca/mira
+
+```bash
+# Clone MiRA repository
+git clone https://github.com/roserbatlleroca/mira.git
+cd mira
+
+# Install MiRA (follow their README for detailed instructions)
+pip install -e .
+```
+
+#### Running CLAP and CoverID
+
+The `MiRA/run_clap_coverid.py` script automates evaluation for all songs. It expects the same audio folder structure as AudioJudge:
+
+```
+audio/
+├── Song_Name/
+│   ├── original/
+│   │   └── original_song.mp3    # Original copyrighted audio
+│   └── generated/
+│       ├── generated_v1.mp3     # APT-generated versions
+│       ├── generated_v2.mp3
+│       └── ...
+├── Another_Song/
+│   ├── original/
+│   └── generated/
+└── ...
+```
+
+**Usage:**
+```bash
+cd MiRA
+
+# Update paths in run_clap_coverid.py to match your setup:
+# - AUDIO_BASE: path to your audio/ directory
+# - MIRA_BASE: path to your mira installation
+# - OUTPUT_DIR: where to save results
+
+python run_clap_coverid.py
+```
+
+The script will:
+1. Convert MP3 files to WAV format (required by MiRA)
+2. Run CLAP similarity scoring
+3. Run CoverID distance calculation
+4. Save results as CSV files in the output directory
+
+**Results** are saved in `MiRA/MiRA results/` as CSV files (e.g., `APT_clap.csv`, `APT_coverid.csv`).
+
+### 4. Embedding Analysis
 
 Compare text embeddings between original and APT-modified lyrics:
 ```bash
