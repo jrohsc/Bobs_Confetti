@@ -1,7 +1,5 @@
 # Bob's Confetti: Phonetic Memorization Attacks in Music and Video Generation
 
-[![USENIX Security '25](https://img.shields.io/badge/USENIX%20Security-2025-blue)](https://www.usenix.org/conference/usenixsecurity25)
-
 This repository contains the code and data artifacts for the paper **"Bob's Confetti: Phonetic Memorization Attacks in Music and Video Generation"**.
 
 **Demo Page:** [https://bobsconfetti.github.io/bobsconfetti/](https://bobsconfetti.github.io/bobsconfetti/)
@@ -255,17 +253,6 @@ This table compares APT attacks against control baselines to validate that **pho
 | SUNO | L2S (Commercial) | https://suno.ai |
 | YuE | L2S (Open-source) | [GitHub](https://github.com/multimodal-art-projection/YuE) |
 | Veo 3 | T2V (Commercial) | Google DeepMind |
-
-<!-- ## Citation
-
-```bibtex
-@inproceedings{bobsconfetti2025,
-  title={Bob's Confetti: Phonetic Memorization Attacks in Music and Video Generation},
-  author={Anonymous},
-  booktitle={USENIX Security Symposium},
-  year={2025}
-}
-``` -->
 
 ## Ethical Considerations
 
